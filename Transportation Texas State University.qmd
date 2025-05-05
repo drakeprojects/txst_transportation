@@ -2,8 +2,8 @@
 title: Transportation_survey_journal
 author: drakeprojects
 type: html
-bibliography: bibliography.bib  # Link to your bibliography file
-csl: apa.csl                    # Optional: Use a citation style (e.g., APA)
+bibliography: reference.bib
+csl: apa.csl                    
 
 abstract: The physical and social characteristics of university campuses provide a unique position for reducing transportation-related greenhouse gas emissions (@zhou2018).
 Travel behavior is influenced by both physical infrastructure and social factors, including personal perspectives, satisfaction, and attitudes, which determine commuters' mode choices (@deangelis2021).
