@@ -3,8 +3,6 @@ title: Transportation_survey_journal
 author: drakeprojects
 type: html
 bibliography: reference.bib
-csl: apa.csl                    
-
 abstract: The physical and social characteristics of university campuses provide a unique position for reducing transportation-related greenhouse gas emissions (@zhou2018).
 Travel behavior is influenced by both physical infrastructure and social factors, including personal perspectives, satisfaction, and attitudes, which determine commuters' mode choices (@deangelis2021).
 To efficiently reduce emissions from transportation, universities must capitalize on this crucial transition period when students show an increased likelihood of adopting sustainable travel behaviors (@deangelis2021).
@@ -22,7 +20,7 @@ editor:
 
 ### Introduction & Background
 
-Universities campuses in college towns provide unique opportunities to reduce transportation-related greenhouse gas emissions other pollutants. College towns are small in population and more compact with a median student population of 33%(@zhou2018) A population of students in a small town size combined with high student population create opportunity to leverage physical and social characteristics of campus to reduce adverse impacts from increasing transportation demand by promoting active and alternative travel.(p.15) Universities and college towns can benefit from utilizing a Travel Demand Management strategy. Universities, such as ULCA, that have historically employed a Travel Demand Management strategies provide good examples. (@zhou2018)
+Universities campuses in college towns provide unique opportunities to reduce transportation-related greenhouse gas emissions other pollutants. Interest in university student travel behavior has grown among researchers and policy makers[@zhou2018a]. University students typical have better accessible to quality multi-modal transportation systems. have College towns are small in population and more compact with a median student population of 33%[@zhou2018] A population of students in a small town size combined with high student population create opportunity to leverage physical and social characteristics of campus to reduce adverse impacts from increasing transportation demand by promoting active and alternative travel.(p.15) Universities and college towns can benefit from utilizing a Travel Demand Management strategy. Universities, such as ULCA, that have historically employed a Travel Demand Management strategies provide good examples. (@zhou2018)
 
 Texas State University student population in the fall of 2024 accounted for over half the local population. San Marcos, Texas, home to Texas State University (TXST), has a population exceeding 71,000 (@census2023). As a college town, TXST itself hosts over 40,000 students, making it a significant contributor to local transportation patterns (@best390colleges2025). TXST main campus is compact, with **259** building on 457 acre.(University Master Plan, )
 
