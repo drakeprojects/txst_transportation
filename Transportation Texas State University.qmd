@@ -21,7 +21,7 @@ Universities are institutions for awareness of climate change mitigation and sus
 
 #### Travel Behavior
 
-Theroy of planned behavior suggest travel behavior are habits that are significant influenced by a commuters knowledge and percetions of the local transportation system.
+Theory of planned behavior suggest travel behavior are habits that are significant influenced by a commuters knowledge and perceptions of the local transportation system.
 Travel behavior is understood to give insight to commuter belief and perspectives, and attitude towards travel options.
 [@deangelis2012] used the Value-belief-norms(VBN) understand that an individuals moral obligation to the environment can significantly impact travel mode choice.
 VBN emphaising how personal experince and attitudes can shape travel behavior.
@@ -30,7 +30,7 @@ A commuter knowledge and preception of the avalible trnasportation options with 
 The university is a "window of oppurtunity" for significant lifestyle changes, like travel behavior.
 Travel behavior habits are repetitive desision made in a stable state of life based on the current knowledge and perspective of avaliable resources.
 Study suggest habits are best broken and formed most easily during transistional period of life like have a child, reloating for a new job, or going to college.
-During these transitional periods individuals are inevitably indruduces to new environments or experinces that may influence thier percpectives and grow their knowledge base.
+During these transitional periods individuals are inevitably indruduces to new environments or experinces that may influence their percpectives and grow their knowledge base.
 Changes adpoted during this "window of oppurtunity" are likely to effect lifestyle choice like mode choice and last into later life beyond the university campus.
 [@deangelis2012].
 An commuters who uses alterative transportation option during college will view biking, walking, or public transit as favroable options later in life.
@@ -41,8 +41,7 @@ These travel preferences are consitent with staff demographocs, representing a m
 
 ### Using Alternative Travel Modes
 
-University students are often have a higher portion using alternative travel modes.
-University students live relatively close to campus and have accessible to quality multi-modal transportation systems[@zhou2018, 132].
+University students are more likely to adopt alternative travel modes, having a higher portion versus staff and general public.
 Students populations tend to walk and and bike more reducing car trips.
 Student tend prioritize housing that is afforable and close to campus, providing them more travel mode choice.
 The variety of quality transportation modes and high portion of alternative transportation modes creates a need for a more comprehensive transportation system, less reliant on fossil fuels.
@@ -61,18 +60,20 @@ As transportation cost and impact vary, there is a need for policy and infrastru
 ### College Towns
 
 Universities or these cities within cities occupy large portions of the local area and population[@romanowska2019, 2].
-Universities are in a pivotal position to encourage more sustainable transportation practices and guide future discussions in the field of climate mitigation.
+Universities are important for encouraging more sustainable transportation practices to reduce GHG emissions.
 College towns are small in population and more compact with a median student population of 33%[@zhou2018].
 A population of students in a small town size combined with high student population create opportunity to leverage physical and social characteristics of campus to reduce adverse impacts from increasing transportation demand by promoting active and alternative travel.(p.15)
 
 #### Travel Distance, Travel Time, Land Use, Transportation Planning, Density
 
-[@romanowka2019, 15] identifies access to a vehicle, trip origin, and trip distance as key factors in ttravel mode choice.(@deangelis2021) finds locations and travel continuity as significantly impact mode choice.
+[@romanowka2019, 15] identifies access to a vehicle, trip origin, and trip distance as key factors in travel mode choice.(@deangelis2021) finds locations and travel continuity as significantly impact mode choice.
 The high density at Texas State increases potential for "transport infrastructure and services" supporting multi-modal travel.
 Compact campus design promoted higher trip rates among students.
 Higher density creates more complex transportation patterns.
 May increase the importance of efficient multi-modal transportation systems.
 High students density presents both challenges and opportunities for promoting alternative transportation.
+
+University students live relatively close to campus and have accessible to quality multi-modal transportation systems[@zhou2018, 132]
 
 Studies find that improved biking and pedestrian infastrcture reduces car commuting, to up 14%[@romanowka2019, 15].
 For many the university campus is the A more rigurous focus on university travel will provide insight on how the built environment combined with social factors effect travel behvaioir[@deangelis2021].
