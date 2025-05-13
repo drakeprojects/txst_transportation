@@ -20,6 +20,7 @@ Interest in university student travel behavior has grown among researchers and p
 Universities are institutions for awareness of climate change mitigation and sustainable transportation practices.
 
 #### Travel Behavior
+
 Theory of planned behavior suggest travel behavior are habits that are significant influenced by a commuters knowledge and perceptions of the local transportation system.
 Travel behavior is understood to give insight to commuter belief and perspectives, and attitude towards travel options.
 [@deangelis2012] used the Value-belief-norms(VBN) understand that an individuals moral obligation to the environment can significantly impact travel mode choice.
@@ -39,6 +40,7 @@ About 20% University staff preffered travel modes for their directness, duration
 These travel preferences are consitent with staff demographocs, representing a more stable consitent lifestyle, having dependents, and living away from campus.
 
 ### Using Alternative Travel Modes
+
 University students transient living and wide use to travel modes, marking them as notably from the general population.
 University students are more likely to adopt alternative travel modes, having a higher portion versus staff and general public.
 Students populations tend to walk and and bike more reducing car trips.
@@ -49,21 +51,23 @@ Today large university campuses are a microcosm of the urban landscape and provi
 [@zhou2018, 133]
 
 ### University Students Trip Generation
-Universities are major contributors to commuting trips averaging 20% higher than the general public, **3.69** daily trips[@zhou2018, @khattak2011]. [@khattak2011] defines a trip as moving at least 300 feet from one address to another. This definition is important for capturing travel behvior of university students living on or around campus.
+
+Universities are major contributors to commuting trips averaging 20% higher than the general public, **3.69** daily trips[@zhou2018, @khattak2011].
+[@khattak2011] defines a trip as moving at least 300 feet from one address to another.
+This definition is important for capturing travel behvior of university students living on or around campus.
 Undergradute students living on campus make the most trips when compared to other university groups.
 University students make shorter non-motorized trips, utilizing walking and biking infastructure.
-[@khattak2011]. 
+[@khattak2011].
 
-
-increasing demand for local transportation infrastructure
-As transportation cost and impact vary, there is a need for policy and infrastructure that encourages more sustainable transportation systems.
+increasing demand for local transportation infrastructure As transportation cost and impact vary, there is a need for policy and infrastructure that encourages more sustainable transportation systems.
 
 ### Physical Environment & Urban Form
 
 ### College Towns
-Universities or these cities within cities occupy large portions of the local area and population[@romanowska2019]. 
+
+Universities or these cities within cities occupy large portions of the local area and population[@romanowska2019].
 College towns are typically smaller in population and more compact with a median student population of 33%[@zhou2018].
-A dense student population in a small town create opportunity to physical characteristics of campus to reduce adverse impacts from increasing transportation demand by promoting active and alternative travel.(p.15) 
+A dense student population in a small town create opportunity to physical characteristics of campus to reduce adverse impacts from increasing transportation demand by promoting active and alternative travel.(p.15)
 
 #### Travel Distance, Travel Time, Land Use, Transportation Planning, Density
 

@@ -1,0 +1,76 @@
+---
+title: "TexasState_vs"
+author: "Drake Blanchard"
+format: html
+editor: visual
+---
+
+## Quarto
+
+```{r}
+university_vs <- data.frame(
+  University = c("Texas State University",
+  Population = c("40,678"),
+  Campus_area = C("517"),
+  Origin_yr = c("1899")
+)
+  
+```
+
+```{r}
+
+# Create a dataframe with the university campus size data
+texas_universities <- data.frame(
+  Rank = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+  University = c(
+    "Texas A&M University",
+    "Texas Tech University",
+    "University of North Texas",
+    "University of Houston",
+    "Texas State University",
+    "University of Texas at Austin",
+    "Rice University", 
+    "Texas Christian University",
+    "Southern Methodist University",
+    "Baylor University"),
+  Location = c(
+    "College Station", 
+    "Lubbock", 
+    "Denton", 
+    "Houston", 
+    "San Marcos", 
+    "Austin", 
+    "Houston", 
+    "Fort Worth", 
+    "Dallas", 
+    "Waco"),
+  Main_Campus_Size_Acres = c(5200, 1857, 875, 667, 495, 431, 300, 295, 234, 100),
+  Enrollment = c(72560, 64022, 46309, 38673, 40678, 36749, 12938, 12116, 20626, 20571),
+  Campus_studnet = sum(Main_Campus_Size_Acres/Enrollment),
+  Enrollment_Year = c(2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024),
+  Year_of_Data = c(2024, 2023, 2017, NA, NA, 2024, 2023, NA, 2024, 2023),
+  Source = c(
+    "Texas A&M Facts",
+    "US News", 
+    "LawnStarter", 
+    NA, 
+    NA, 
+    "UT Facts & Figures", 
+    "Wikipedia", 
+    NA, 
+    "Wikipedia", 
+    "Wikipedia")
+)
+
+# Sort the dataframe by campus size (descending order)
+texas_universities_sorted <- texas_universities[order(-texas_universities$Main_Campus_Size_Acres),]
+
+# Reset row names for cleaner display
+rownames(texas_universities_sorted) <- NULL
+
+
+# Display the sorted dataframe
+print(texas_universities_sorted)
+
+
+```
