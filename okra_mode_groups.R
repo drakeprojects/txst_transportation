@@ -25,3 +25,4 @@ print(modal_split_okra)
 # Check that percentages sum to approximately 100% for each group
 rowSums(modal_split_okra[, c("car_pct", "public_transport_pct", "bike_pct", "walk_pct")])
 
+

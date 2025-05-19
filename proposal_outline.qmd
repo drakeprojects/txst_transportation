@@ -1,0 +1,42 @@
+---
+title: "proposal"
+format: html
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+## Research Question:
+
+How can universities leverage physical factors of campus to reduce transportation emissions?
+
+## Identify issue:
+
+As high education grows so do transportation demands and GHG emissions.
+How can universities leverage their physical footprint to reduce transportation related GHGe and provide quality multimedia transportation.
+
+- Emissions
+  - Greenhouse Gas Emissions(GHGe)
+- Trip Generation
+  - Traveling over 300 feet from one address to another
+
+## Physical Campus
+- Density
+- Design
+
+## Travel Behavior
+- Theory of planned behavior
+  - Value-belief-norms
+
+### Planning
+
+-   Travel Demand Management(TDM)
+-   Campus Master Plan
+
+### Importance of Project:
+
+The results of this analysis will provide insight leveraging campus characteristics and existing multi-modal systems to reduce transportation emissions
+
+### Project Purpose:
+
+The contributions of this research will aid in future transportation planning and policy, particularly the implementation of the Texas State University 2025 Campus Master Plan.

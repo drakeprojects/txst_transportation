@@ -35,6 +35,11 @@ Current research explores daily commuting patterns, factors influencing travel b
 
 Using Alternative Travel Modes
 
+<<<<<<< HEAD
+### Using Alternative Travel Modes
+
+=======
+>>>>>>> 73c7c9837b5e3834fe7b272b407fe22ca914da44
 University students transient living and wide use to travel modes, marking them as notably from the general population.
 University students are more likely to adopt alternative travel modes, having a higher portion versus staff and general public.
 Students populations tend to walk and and bike more reducing car trips.

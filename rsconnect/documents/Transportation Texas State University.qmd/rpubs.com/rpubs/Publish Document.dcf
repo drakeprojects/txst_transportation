@@ -6,5 +6,5 @@ server: rpubs.com
 hostUrl: rpubs.com
 appId: https://api.rpubs.com/api/v1/document/1307099/5fd2ca848115438c9a2ceca90e2413d2
 bundleId: https://api.rpubs.com/api/v1/document/1307099/5fd2ca848115438c9a2ceca90e2413d2
-url: http://rpubs.com/publish/claim/1307099/26c11f505ce448c187bb4390bca23628
+url: http://rpubs.com/dbprojects/1307099
 version: 1
