@@ -1,0 +1,627 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Transportation\_survey\_journal},
+  pdfauthor={drakeprojects},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Transportation\_survey\_journal}
+\author{drakeprojects}
+\date{}
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+
+\section{Introduction \& Background}\label{introduction-background}
+
+\subsection{Universities}\label{universities}
+
+\subsubsection{Creating Demand}\label{creating-demand}
+
+Universities campuses in college towns provide unique opportunities to
+reduce transportation-related greenhouse gas emissions(GHGe) other
+pollutants. Interest in university student travel behavior has grown
+among researchers and policy makers and car dependency continues to
+adversely impact U.S. communities{[}Zhou, Wang, and Wu
+(2018){]}(\textbf{kattak2011?}). Car dependency continues to have
+adverse environmental, social and economic consequences on communities.
+including pollution, health effects, and financial burden(Romanowska,
+Okraszewska, and Jamroz 2019). Universities are recognized institutions
+that create awareness of climate change mitigation and sustainable
+transportation practices{[}(\textbf{romanowsaka2019?}){]}(Angelis,
+Mantecchini, and Pietrantoni 2021)(Zhou 2012).
+
+Referred to as ``cities inside cities'' . universities are ideal
+learning laboratories for researching and identifying sustainability
+initiatives. Operating as a communal network that reflects a large
+community and function universities have a significant role in promoting
+sustainable development and tackling transportation concerns. The
+movement of students, students staff and visitors is a critical factor
+in the growing impact of universities campuses to the surrounding area.
+Universities have a large footprint, accounting for up to 2\% of the
+total annual U.S. GHGe, making it important that they participate in
+mitigating climate change(\textbf{parsley2022?}).
+
+University students are considered a key segment of the population those
+travel is often understudies and weakly covered in current literature
+and data collection{[}(\textbf{kattak2011?}){]}(Taylor and Mitra 2021).
+Current research explores daily commuting patterns, factors influencing
+travel behavior, and the potential for shifting toward more sustainable
+travel modes{[}Romanowska, Okraszewska, and Jamroz
+(2019){]}(\textbf{zhou2011?}).Factors affecting mode choice include
+physical environment(distance, time, density), mode-specific cost,
+accessibility to transit, personal attributes, trip characteristics,
+travel demand management (TDM) measures, and psychological factors( or
+awareness and previewed safety(Zhou, Wang, and Wu 2018).
+
+\subsubsection{Trip Generation}\label{trip-generation}
+
+Universities are major contributors to commuting trips averaging 20\%
+higher than the general public, \textbf{3.69} daily tripsKhattak et al.
+(2011). Universities serve a large number of students and staff forming
+a significant portion of the local or regional population(Romanowska,
+Okraszewska, and Jamroz 2019). This large concentrationed populations
+moving from and around a campact campus inherently generate a
+significant volumne of daily trips(Romanowska, Okraszewska, and Jamroz
+2019). (Khattak et al. 2011) defines a trip as moving at least 300 feet
+from one address to another. This definition is important for capturing
+travel behavior of university students living on and around campus.
+Undergraduate students living on campus make the most trips when
+compared to other university groups. University students make shorter
+non-motorized trips, utilizing walking and biking infrastructure.
+(Khattak et al. 2011).
+
+\subsubsection{Using Alternative Travel
+Modes}\label{using-alternative-travel-modes}
+
+University students transient living and wide use to travel modes,
+marking them as notably from the general population. University students
+are more likely to adopt alternative travel modes, having a higher
+portion versus staff and general public. Students populations tend to
+walk and and bike more reducing car trips. Student tend prioritize
+housing that is affordable and close to campus, providing them more
+travel mode choice. The variety of quality transportation modes and high
+portion of alternative transportation modes creates a need for a more
+comprehensive transportation system, less reliant on fossil fuels.
+Universities increase the demand on local transportation system while
+providing an opportunity to expand alternative transportation modes.
+Today large university campuses are a microcosm of the urban landscape
+and provides a ideal environment for studying transportation policy and
+infrastructure. (Zhou, Wang, and Wu 2018, 133)
+
+College towns are recognized as areas where university students account
+for a significant share of the local population(33\% or more) and tend
+to have smaller population sizes and a more compact urban form compared
+to large urban areas(Zhou, Wang, and Wu 2018). This compactness suggest
+students are more likely to walk or bike and drive less(Zhou, Wang, and
+Wu 2018). A study focused on college students commuter students were
+more likely to use alternative and active travel modes when compared to
+staff and peers at urban universities(Zhou, Wang, and Wu 2018). However,
+25\% of commuters students living within two miles of campus drove
+alone, indicating that a compact form is only the only factor of
+satisfying all travel needs, like out of town travel(Zhou, Wang, and Wu
+2018). The advantage of shorter distances, good transit, and a safe
+environment are not guarantees of alternative mode, suggesting the need
+for further strategies to manage transportation needs(Zhou, Wang, and Wu
+2018).
+
+\subsubsection{Travel Factors}\label{travel-factors}
+
+(\textbf{romanowka2019?}) identifies access to a vehicle, trip origin,
+and trip distance as key factors in travel mode choice.(Angelis,
+Mantecchini, and Pietrantoni 2021) finds locations and travel continuity
+as significantly impact mode choice. The high density at Texas State
+increases potential for ``transport infrastructure and services''
+supporting multi-modal travel. Compact campus design promoted higher
+trip rates among students. Higher density creates more complex
+transportation patterns. May increase the importance of efficient
+multi-modal transportation systems. High students density presents both
+challenges and opportunities for promoting alternative transportation.
+Studies find that improved biking and pedestrian infrastructure reduces
+car commuting, to up 14\%(\textbf{romanowka2019?}). University students
+live relatively close to campus and have accessible to quality
+multi-modal transportation systems(Zhou, Wang, and Wu 2018, 132) For
+many the university campus is the A more rigorous focus on university
+travel will provide insight on how the built environment combined with
+social factors effect travel behavior(Angelis, Mantecchini, and
+Pietrantoni 2021). Universities are active;ly encouraging sustainable
+education and practices(Parsley and Waliczek, n.d.). Students are a
+social group with high willingness to adopt new ideas and make lifestyle
+changes. The knowledge, experiences, and attitudes gain during college
+raise awareness in for the wider public(Romanowska, Okraszewska, and
+Jamroz 2019). Universities can leverage this to promote
+pro-environmental values and prevent the development of pro-car habits
+in young commuters(Angelis, Mantecchini, and Pietrantoni 2021).
+
+\subsubsection{Window of Opportunity}\label{window-of-opportunity}
+
+The university is a ``window of opportunity'' for significant lifestyle
+changes, like travel behavior. Travel behavior habits are repetitive
+decision made in a stable state of life based on the current knowledge
+and perspective of available resources. Theory of planned behavior(TPB)
+suggest travel behavior are habits that are significant influenced by a
+commuters knowledge and perceptions of the available transportation
+system. Travel behavior is understood to give insight to commuter belief
+and perspectives, and attitude towards travel modes.
+(\textbf{deangelis2012?}) used the Value-belief-norms(VBN) understand
+that an individuals moral obligation to the environment can
+significantly impact travel mode choice. Understanding that habitual
+travel behaviors are based on individual morals, explains how personal
+experiences and attitudes can shape travel mode choice. A commuter's
+knowledge and perception of the available transportation modes will
+decide their travel behavior.
+
+Study suggest habits are best broken and formed most easily during
+transitional period of life like have a child, relocating for a new job,
+or going to college. During these transitional periods individuals are
+inevitably induced to new environments or experiences that may influence
+their perspectives and grow their knowledge base. Changes adopted during
+this ``window of opportunity'' are likely to effect lifestyle choice
+like mode choice and last into later life beyond the university campus.
+(\textbf{deangelis2012?}). An commuters who uses alternative
+transportation option during college will view biking, walking, or
+public transit as favorable options later in life. Where as someone who
+drive most of their time on campus is likely to continue with less
+chance of reconsidering other options. (\textbf{okrazeska?},) find that
+students are more likely than staff to choice alternative and active
+travel modes. About 20\% University staff preferred travel modes for
+their directness, duration, convenience and flexibility. These travel
+preferences are consistent with staff demographics, representing a more
+stable consistent lifestyle, having dependents, and living away from
+campus.
+
+\subsubsection{Research Question}\label{research-question}
+
+How can universities leverage physical factors of campus to reduce
+transportation emissions?
+
+\subsubsection{Methodology}\label{methodology}
+
+This study site is Texas State University(TXST), a premier public school
+institution located in San Marcos Texas. As one of seven institutions in
+The Texas State University System, San Marcos(main) campus serves 40,678
+students today. This campus is a thriving public research institution
+with an annual exceeding \$165 million and racing to Carnegie R1 status.
+
+TXST is strategically located in the Texas Triangle, the dynamic regions
+of Texas that encompasses San Antonio, Austin, Dallas-Forth Worth, and
+Houston(\textbf{txcampplan24?}). This area is home to more than 70\% of
+Texas population(\textgreater21 million people) and 80\% of Texas GDP.
+The Texas Triangle has experienced rapid growth, reaching over 15\% in
+the last decade. This setting provides TXST school system with direct
+connection to a diverse pool of talent, proximity to leading industries,
+and a vibrant cultural and economic environment. With seven distinct
+locations along the I-35 corridor between Austin and San Antonio, TSXT
+is uniquely positioned to serve the growing region.
+
+San Marcos and Round Rock campuses benefit from proximity to two of
+Texas's fastest-growing metropolitan areas providing a robust enrollment
+catchment zone and direct access to diverse industries like technology,
+healthcare, and manufacturing. These campus locations are ideal for
+building partnerships and fostering research and innovation. Along with
+the main campus(San Marcos) TXST has Science, Technology, and Advanced
+Research(STAR Park), Advanced Law Enforcement Rapid Response
+Training(ALERRT), Muller Farm, Freeman Ranch, and University Camp. These
+sites support specific functions for TXST and collectively enhance the
+institution's research resources. STAR Park, which serves as an
+extension of the university as a research hub for enterprise and
+collaboration with industry partners. Muller Farm and Freeman Ranch
+serve as hands on leaning environments for agriculture and land
+management research. University Camp about 14 miles from main campus
+along the Blanco river offers a recreational retreat and outdoor leaning
+opportunities. These locations are part of the larges TXST systems and
+are designed to work to benefit TXST San Macros campus population.
+
+San Marcos, Texas, is a vibrant nexus within the rapidly growing I-35
+corridor. In 2023 the population was over 71,000, nearly doubling since
+2000. TXST San Marcos 517 acre main campus sits in the heart of San
+Marcos, 3 blocks from downtown. As one of the largest employers in the
+area TXST plays a significant role in the region, as campus population
+contribute labor and consumers for local economy. San Marcos is often
+recognized as a noble college town, with TXST students accounting for
+more than half of the local population. Campus is compact, operating at
+around 75 assignable square foot(ASF) per full-time equivalent(FTE),
+suggesting a highly efficient use of space(\textbf{txcampplan24?}). San
+Marco's dense urban landscape and TXST's compact campus create a
+distinct opportunity for employing and assessing novel transportation
+interventions.
+
+The San Marcos Campus is situated atop rolling hills that creates a
+unique environment adjacent to the San Marcos River and Downtown San
+Marcos. The campus's unique connection to its surrounding ecology and
+urban context provide a memorable experiences. The campus features a
+200-foot elevation change, descending from northwest to low-lying areas
+near Spring Lake and the San Marcos River. Old Main, perched on
+Chautauqua Hill overlooking the river gives a notice of the hilly
+topography. The San Marcos River and Spring Lake as a part of campus are
+crucial natural features that provide scenic views and educational
+opportunities. The university connection to these nature features is
+emphasized in tradations, such as joining your cohort at Swell park to
+jumping in the river after graduation.
+
+Local Transportation assets and infrastructure
+
+Pedestrain Circulation: TXST's campus is a pedestrian-oriented are
+defined by three major east-west pedestrian axes: The Quad, Bobcat
+Trail, and Concho Green. TXST has a core
+
+Parking: The university maintains a comprehensive parking network with
+parking garages, surfaces lots, and on-street parking. Nine parking
+garages are concentrated in the west and central areas near Chautauqua.
+However, rapid growth has created a shortage in most parking categories.
+
+Roadways and Gateways: Key intersections like Aquarena Springs Drive and
+Sessom Drive serve as major gateways but experience significant
+congestion during peak hours. Strategies to improve traffic flow are
+recommended, including low-impact solutions like re striping and signal
+timing, though physical modifications are limited by the river and
+existing structures. Enhancements to streets capes and signage are
+proposed at gateways to strengthen the universities presence.
+
+Transit and Mobility: The Campus Plan prioritizes enhancing physical
+connectivity through pedestrian pathways, transit, and micro-mobility.
+Future-oriented solutions envision advanced transit systems like
+enhanced bus services(express routes,dedicated lanes), autonomous
+shuttles, personal rapid transit, streetcars, or light rail in
+collaboration with the City of San Marcos. The plan also includes shared
+bikes paths and tracks. There's also interest in making alternative
+modes more inviting, accessible, and safe to reduce car dependency.
+
+Connectivity Projects: A proposed pedestrian bridge connecting the
+university core pedestrian corridor to the STEM quad area is discussed
+to provide connection. This project would require City of San Marcos
+review and permitting.
+
+High Density Transportation: The high density at Texas State increases
+the potential for transport infrastructure and services supporting
+multi-modal travel. A compact campus design can promote high trip rates
+among students. High student density present challenges but also
+opportunities for promoting alternative transportation. Analyzing the
+travel behavior using parking survey data is an ongoing research effort
+to leverage campus characteristics and existing multi-modal systems.
+
+In summary TXST and San Marcos offer a compelling location for research,
+situated within a rapidly growing economic hub and benefiting from the
+university's race to R1 and its network of specialized satellite
+locations. The San Marcos campus itself is a characterized by its size,
+unique topography, and integration with significant natural features
+like the San Marcos River. The local transportation environment includes
+a pedestrian-centric core, existing parking infrastructure, and
+congested roadways challenges. The future vision includes enhancing
+physical connectivity through transit, micro-mobility, and pedestrian
+infrastructure improvements, addressing the challenges and capitalizing
+on the opportunities presented by the compact, high density campus
+environment. This research focuses on understanding how to further
+leverage physical features of campus to reduce transportation emissions.
+
+\subsection{Data Collection:}\label{data-collection}
+
+The primary source for this research is Texas State University's Parking
+survey from Fall 2024 and 2025-2035 Camps Master Plan.
+
+The 2024 parking survey will be utilized to investigated TXST students
+travel behavior. This parking survey was administrator via university
+emails to all TXST students, gathering comprehensive information
+regarding daily commuting patterns. This survey received a response rate
+of 2.9\%(0.02908), The data collected from the student responses is a
+quantitative in nature and will be used for a statistical summary
+analysis of travel behavior.
+
+\begin{itemize}
+\tightlist
+\item
+  Analysis:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Perform statistical summary analysis of travel behavior based on
+    survey responses.
+  \item
+    Identify key insights related to transportation patterns.
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Primary travel mode
+    \item
+      Frequency of travel
+    \item
+      Trip distance and length
+    \item
+      Parking permit ownership
+    \item
+      Private vehicle access
+    \end{itemize}
+  \item
+    Examine the potential impact of changes in travel behavior on
+    greenhouse gas emissions.
+  \end{itemize}
+\item
+  Summary and Recommendations:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Draft a summary analysis of the findings.
+  \item
+    Propose actionable steps for TXST to promote sustainable
+    transportation.
+  \end{itemize}
+\end{itemize}
+
+\subsubsection{Objectives}\label{objectives}
+
+\begin{itemize}
+\item
+  Analyze transportation and travel behavior of Texas State University
+  students using parking survey data from the Fall 2024 semester.
+\item
+  Identify trends and areas for improvement in campus transportation
+  planning using 2025-2035 Campus Master Plans.
+\item
+  Provide actionable recommendations to reduce transportation-related
+  greenhouse gas emissions.
+\end{itemize}
+
+\subsection{Expected Outcomes}\label{expected-outcomes}
+
+\begin{itemize}
+\item
+  Enhanced understanding of TXST students' travel behavior and its
+  environmental impact.
+\item
+  Identification of key factors and trends influencing transportation
+  choices among students.
+\item
+  Actionable recommendations for TXST to reduce transportation-related
+  GHGe and promote sustainable travel options.
+\end{itemize}
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-deangelis2021}
+Angelis, Marco De, Luca Mantecchini, and Luca Pietrantoni. 2021. {``A
+Cluster Analysis of University Commuters: Attitudes, Personal Norms and
+Constraints, and Travel Satisfaction.''} \emph{International Journal of
+Environmental Research and Public Health} 18 (9): 4592.
+\url{https://doi.org/10.3390/ijerph18094592}.
+
+\bibitem[\citeproctext]{ref-khattak2011}
+Khattak, Asad, Xin Wang, Sanghoon Son, and Paul Agnello. 2011. {``Travel
+by University Students in Virginia: Is This Travel Different from Travel
+by the General Population?''} \emph{Transportation Research Record:
+Journal of the Transportation Research Board} 2255 (1): 137--45.
+\url{https://doi.org/10.3141/2255-15}.
+
+\bibitem[\citeproctext]{ref-parsley}
+Parsley, Emma Corinne, and Tina Marie Waliczek. n.d. {``Measuring the
+Perceptions of Sustainability Initiatives Within a University Campus.''}
+
+\bibitem[\citeproctext]{ref-romanowska2019}
+Romanowska, Aleksandra, Romanika Okraszewska, and Kazimierz Jamroz.
+2019. {``A Study of Transport Behaviour of Academic Communities.''}
+\emph{Sustainability} 11 (13): 3519.
+\url{https://doi.org/10.3390/su11133519}.
+
+\bibitem[\citeproctext]{ref-taylor2021}
+Taylor, Ryan, and Raktim Mitra. 2021. {``Commute Satisfaction and Its
+Relationship to Post-Secondary Students' Campus Participation and
+Success.''} \emph{Transportation Research Part D: Transport and
+Environment} 96: 102890.
+\url{https://doi.org/10.1016/j.trd.2021.102890}.
+
+\bibitem[\citeproctext]{ref-zhou2012}
+Zhou, Jiangping. 2012. {``Sustainable Commute in a Car-Dominant City:
+Factors Affecting Alternative Mode Choices Among University Students.''}
+\emph{Transportation Research Part A: Policy and Practice} 46 (7):
+1013--29. \url{https://doi.org/10.1016/j.tra.2012.04.001}.
+
+\bibitem[\citeproctext]{ref-zhou2018}
+Zhou, Jiangping, Yin Wang, and Jiangyue Wu. 2018. {``Mode Choice of
+Commuter Students in a College Town: An Exploratory Study from the
+United States.''} \emph{Sustainability} 10 (9): 3316.
+\url{https://doi.org/10.3390/su10093316}.
+
+\end{CSLReferences}
+
+
+
+
+\end{document}

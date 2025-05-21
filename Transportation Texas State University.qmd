@@ -1,10 +1,16 @@
 ---
 title: Transportation_survey_journal
 author: drakeprojects
-type: pdf
 bibliography: reference.bib
-editor: 
-  markdown: 
+format:
+  pdf:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    fig-cap-location: bottom
+    output-file: "Transportation_survey_journal.pdf"
+editor:
+  markdown:
     wrap: sentence
 ---
 
@@ -174,6 +180,8 @@ This survey received a response rate of 2.9%(0.02908), The data collected from t
 
 ```{r}
 #| label: response_rate
+#| eval: false
+#| include: false
 
 population_size <- 40678
 sample_size <- 1183
