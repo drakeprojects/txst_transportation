@@ -3,12 +3,12 @@ title: Transportation_survey_journal
 author: drakeprojects
 bibliography: reference.bib
 format:
-  pdf:
-    toc: true
-    toc-depth: 3
+  docx:
+    toc: false
+    toc-depth: 
     number-sections: true
     fig-cap-location: bottom
-    output-file: "Transportation_survey_journal.pdf"
+    output-file: "Transportation_survey_journal.docx"
 editor:
   markdown:
     wrap: sentence
@@ -224,7 +224,7 @@ cat("Margin of error: ±", round(margin_of_error_percent, 2), "%\n", sep="")
 
 -   Provide actionable recommendations to reduce transportation-related greenhouse gas emissions.
 
-###  Expected Outcomes
+### Expected Outcomes
 
 -   Enhanced understanding of TXST students' travel behavior and its environmental impact.
 
