@@ -99,19 +99,19 @@ How can universities leverage physical factors of campus to reduce transportatio
 
 #### Methodology
 
-This study site is Texas State University(TXST) is a premier public school institution located in San Marcos Texas.
-As one of seven institutions in The Texas State University System.
-San Marcos(main) campus serves 40,678 students today.
+This study site is Texas State University(TXST), a premier public school institution located in San Marcos Texas.
+As one of seven institutions in The Texas State University System, San Marcos(main) campus serves 40,678 students today.
 This campus is a thriving public research institution with an annual exceeding \$165 million and racing to Carnegie R1 status.
 
 TXST is strategically located in the Texas Triangle, the dynamic regions of Texas that encompasses San Antonio, Austin, Dallas-Forth Worth, and Houston[@txcampplan24].
-This area is home to more than 70% of Texas population, or over 21 million people and 80% of Texas GDP. The Texas Triangle has experienced rapid growth, reaching over 15% in th last decade.
-This setting provides an ideal opportunity for TXST school system access to a diverse pool of talent, proximity to leading industries, and a vibrant cultural and economic environment.
+This area is home to more than 70% of Texas population(\>21 million people) and 80% of Texas GDP. The Texas Triangle has experienced rapid growth, reaching over 15% in the last decade.
+This setting provides TXST school system with direct connection to a diverse pool of talent, proximity to leading industries, and a vibrant cultural and economic environment.
 With seven distinct locations along the I-35 corridor between Austin and San Antonio, TSXT is uniquely positioned to serve the growing region.
-San Marcos and Round Rock campuses benefit from proximity to two of Texas's fastest-growing metropolitan areas providing a robust enrollment zone and direct access to diverse industries like technology, healthcare, and manufacturing.
-This locations is ideal for building partnerships and fostering research and innovation.
-Along with the main campus TXST has Science,Technology, and Advanced Research(STAR Park), Advanced Law Enforcement Rapid Response Training(ALERRT), Muller Farm, Freeman Ranch, and University Camp to jointly enhance the institution's mission.
-These sites support specific functions for TXST.
+
+San Marcos and Round Rock campuses benefit from proximity to two of Texas's fastest-growing metropolitan areas providing a robust enrollment catchment zone and direct access to diverse industries like technology, healthcare, and manufacturing.
+These campus locations are ideal for building partnerships and fostering research and innovation.
+Along with the main campus(San Marcos) TXST has Science, Technology, and Advanced Research(STAR Park), Advanced Law Enforcement Rapid Response Training(ALERRT), Muller Farm, Freeman Ranch, and University Camp.
+These sites support specific functions for TXST and collectively enhance the institution's research resources.
 STAR Park, which serves as an extension of the university as a research hub for enterprise and collaboration with industry partners.
 Muller Farm and Freeman Ranch serve as hands on leaning environments for agriculture and land management research.
 University Camp about 14 miles from main campus along the Blanco river offers a recreational retreat and outdoor leaning opportunities.
@@ -120,20 +120,22 @@ These locations are part of the larges TXST systems and are designed to work to 
 San Marcos, Texas, is a vibrant nexus within the rapidly growing I-35 corridor.
 In 2023 the population was over 71,000, nearly doubling since 2000.
 TXST San Marcos 517 acre main campus sits in the heart of San Marcos, 3 blocks from downtown.
-As one of the largest employers in the area TXST plays a significant role in the local economy, as campus population contribute labor and consumers for local business.
+As one of the largest employers in the area TXST plays a significant role in the region, as campus population contribute labor and consumers for local economy.
 San Marcos is often recognized as a noble college town, with TXST students accounting for more than half of the local population.
+Campus is compact, operating at around 75 assignable square foot(ASF) per full-time equivalent(FTE), suggesting a highly efficient use of space[@txcampplan24].
 San Marco's dense urban landscape and TXST's compact campus create a distinct opportunity for employing and assessing novel transportation interventions.
 
 The San Marcos Campus is situated atop rolling hills that creates a unique environment adjacent to the San Marcos River and Downtown San Marcos.
 The campus's unique connection to its surrounding ecology and urban context provide a memorable experiences.
 The campus features a 200-foot elevation change, descending from northwest to low-lying areas near Spring Lake and the San Marcos River.
-This topography is most notable at Old Main, perched on Chautauqua Hill overlooking the river.
+Old Main, perched on Chautauqua Hill overlooking the river gives a notice of the hilly topography.
 The San Marcos River and Spring Lake as a part of campus are crucial natural features that provide scenic views and educational opportunities.
-The university connection to these nature features is emphasized in tradations, such as jumping in the river after graduation.
+The university connection to these nature features is emphasized in tradations, such as joining your cohort at Swell park to jumping in the river after graduation.
 
 Local Transportation assets and infrastructure
 
-Pedestrain Circulation: TXST's campus is a pedestrian-oriented are defined by three major east-west pedestrian axes: The Quad, Bobcat Trail, and Concho Green
+Pedestrain Circulation: TXST's campus is a pedestrian-oriented are defined by three major east-west pedestrian axes: The Quad, Bobcat Trail, and Concho Green.
+TXST has a core
 
 Parking: The university maintains a comprehensive parking network with parking garages, surfaces lots, and on-street parking.
 Nine parking garages are concentrated in the west and central areas near Chautauqua.
@@ -180,7 +182,6 @@ z_score <- qnorm(1 - (1 - confidence_level)/2)  # z-score for 95% confidence = 1
 
 # Calculate margin of error
 # Formula: z * sqrt((p * (1-p)) / n) * sqrt((N-n)/(N-1))
-# Where p = 0.5 (worst-case scenario for variance)
 p <- 0.5  # Using 0.5 for maximum variance
 margin_of_error <- z_score * sqrt((p * (1-p)) / sample_size) * sqrt((population_size - sample_size)/(population_size - 1))
 
