@@ -21,10 +21,9 @@ editor:
 #### Creating Demand
 
 Universities campuses in college towns provide unique opportunities to reduce transportation-related greenhouse gas emissions(GHGe) other pollutants.
-Interest in university student travel behavior has grown among researchers and policy makers and car dependency continues to adversely impact U.S. communities[@zhou2018][@kattak2011].
-Car dependency continues to have adverse environmental, social and economic consequences on communities.
-including pollution, health effects, and financial burden[@romanowska2019].
-Universities are recognized institutions that create awareness of climate change mitigation and sustainable transportation practices[@romanowsaka2019][@deangelis2021][@zhou2012].
+Interest in university student travel behavior has grown among researchers and policy makers and car dependency continues to adversely impact U.S. communities[@zhou2018][@khattak2011].
+Car dependency continues to have adverse environmental, social and economic consequences on communities including pollution, health effects, and financial burden[@romanowska2019].
+Universities are recognized institutions that create awareness of climate change mitigation and sustainable transportation practices[@romanowska2019][@deangelis2021][@zhou2012].
 
 Referred to as "cities inside cities" .
 universities are ideal learning laboratories for researching and identifying sustainability initiatives.
