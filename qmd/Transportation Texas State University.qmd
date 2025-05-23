@@ -2,13 +2,7 @@
 title: Transportation_survey_journal
 author: drakeprojects
 bibliography: reference.bib
-format:
-  docx:
-    toc: false
-    toc-depth: 
-    number-sections: true
-    fig-cap-location: bottom
-    output-file: "Transportation_survey_journal.docx"
+format: docx
 editor:
   markdown:
     wrap: sentence
@@ -37,7 +31,6 @@ Today large university campuses are a microcosm of the urban landscape and provi
 
 University students are considered a key segment of the population those travel is often understudies and weakly covered in current literature and data collection[@kattak2011][@taylor2021].
 Current research explores daily commuting patterns, factors influencing travel behavior, and the potential for shifting toward more sustainable travel modes[@romanowska2019][@zhou2011].
-#change to tell about up comming sectinons—\>Factors affecting mode choice include physical environment(distance, time, density), mode-specific cost, accessibility to transit, personal attributes, trip characteristics, travel demand management (TDM) measures, and psychological factors( or awareness and previewed safety[@zhou2018].
 
 #### Trip Generation
 
@@ -108,113 +101,112 @@ How can universities leverage physical factors of campus to reduce transportatio
 This study site is Texas State University(TXST), a premier public school institution located in San Marcos Texas.
 As one of seven institutions in The Texas State University System, San Marcos(main) campus serves 40,678 students today.
 This campus is a thriving public research institution with an annual exceeding \$165 million and racing to Carnegie R1 status.
-
 TXST is strategically located in the Texas Triangle, the dynamic regions of Texas that encompasses San Antonio, Austin, Dallas-Forth Worth, and Houston[@txcampplan24].
-This area is home to more than 70% of Texas population(\>21 million people) and 80% of Texas GDP. The Texas Triangle has experienced rapid growth, reaching over 15% in the last decade.
-This setting provides TXST school system with direct connection to a diverse pool of talent, proximity to leading industries, and a vibrant cultural and economic environment.
-With seven distinct locations along the I-35 corridor between Austin and San Antonio, TSXT is uniquely positioned to serve the growing region.
-
-San Marcos and Round Rock campuses benefit from proximity to two of Texas's fastest-growing metropolitan areas providing a robust enrollment catchment zone and direct access to diverse industries like technology, healthcare, and manufacturing.
-These campus locations are ideal for building partnerships and fostering research and innovation.
-Along with the main campus(San Marcos) TXST has Science, Technology, and Advanced Research(STAR Park), Advanced Law Enforcement Rapid Response Training(ALERRT), Muller Farm, Freeman Ranch, and University Camp.
-These sites support specific functions for TXST and collectively enhance the institution's research resources.
-STAR Park, which serves as an extension of the university as a research hub for enterprise and collaboration with industry partners.
-Muller Farm and Freeman Ranch serve as hands on leaning environments for agriculture and land management research.
-University Camp about 14 miles from main campus along the Blanco river offers a recreational retreat and outdoor leaning opportunities.
-These locations are part of the larges TXST systems and are designed to work to benefit TXST San Macros campus population.
-
-San Marcos, Texas, is a vibrant nexus within the rapidly growing I-35 corridor.
-In 2023 the population was over 71,000, nearly doubling since 2000.
-TXST San Marcos 517 acre main campus sits in the heart of San Marcos, 3 blocks from downtown.
-As one of the largest employers in the area TXST plays a significant role in the region, as campus population contribute labor and consumers for local economy.
-San Marcos is often recognized as a noble college town, with TXST students accounting for more than half of the local population.
-Campus is compact, operating at around 75 assignable square foot(ASF) per full-time equivalent(FTE), suggesting a highly efficient use of space[@txcampplan24].
-San Marco's dense urban landscape and TXST's compact campus create a distinct opportunity for employing and assessing novel transportation interventions.
-
-The San Marcos Campus is situated atop rolling hills that creates a unique environment adjacent to the San Marcos River and Downtown San Marcos.
-The campus's unique connection to its surrounding ecology and urban context provide a memorable experiences.
-The campus features a 200-foot elevation change, descending from northwest to low-lying areas near Spring Lake and the San Marcos River.
-Old Main, perched on Chautauqua Hill overlooking the river gives a notice of the hilly topography.
-The San Marcos River and Spring Lake as a part of campus are crucial natural features that provide scenic views and educational opportunities.
-The university connection to these nature features is emphasized in tradations, such as joining your cohort at Swell park to jumping in the river after graduation.
-
-Local Transportation assets and infrastructure
-
-Pedestrain Circulation: TXST's campus is a pedestrian-oriented are defined by three major east-west pedestrian axes: The Quad, Bobcat Trail, and Concho Green.
-TXST has a core
-
-Parking: The university maintains a comprehensive parking network with parking garages, surfaces lots, and on-street parking.
-Nine parking garages are concentrated in the west and central areas near Chautauqua.
-However, rapid growth has created a shortage in most parking categories.
-
-Roadways and Gateways: Key intersections like Aquarena Springs Drive and Sessom Drive serve as major gateways but experience significant congestion during peak hours.
-Strategies to improve traffic flow are recommended, including low-impact solutions like re striping and signal timing, though physical modifications are limited by the river and existing structures.
-Enhancements to streets capes and signage are proposed at gateways to strengthen the universities presence.
-
-Transit and Mobility: The Campus Plan prioritizes enhancing physical connectivity through pedestrian pathways, transit, and micro-mobility.
-Future-oriented solutions envision advanced transit systems like enhanced bus services(express routes,dedicated lanes), autonomous shuttles, personal rapid transit, streetcars, or light rail in collaboration with the City of San Marcos.
-The plan also includes shared bikes paths and tracks.
-There's also interest in making alternative modes more inviting, accessible, and safe to reduce car dependency.
-
-Connectivity Projects: A proposed pedestrian bridge connecting the university core pedestrian corridor to the STEM quad area is discussed to provide connection.
-This project would require City of San Marcos review and permitting.
-
-High Density Transportation: The high density at Texas State increases the potential for transport infrastructure and services supporting multi-modal travel.
-A compact campus design can promote high trip rates among students.
-High student density present challenges but also opportunities for promoting alternative transportation.
-Analyzing the travel behavior using parking survey data is an ongoing research effort to leverage campus characteristics and existing multi-modal systems.
-
-In summary TXST and San Marcos offer a compelling location for research, situated within a rapidly growing economic hub and benefiting from the university's race to R1 and its network of specialized satellite locations.
+This area is home to more than 70% of Texas population(\>21 million people).
 The San Marcos campus itself is a characterized by its size, unique topography, and integration with significant natural features like the San Marcos River.
 The local transportation environment includes a pedestrian-centric core, existing parking infrastructure, and congested roadways challenges.
-The future vision includes enhancing physical connectivity through transit, micro-mobility, and pedestrian infrastructure improvements, addressing the challenges and capitalizing on the opportunities presented by the compact, high density campus environment.
-This research focuses on understanding how to further leverage physical features of campus to reduce transportation emissions.
+This research focuses on understanding how to further leverage physical features of campus to reduce transportation emissions by investigating TXST students travel behavior using parking survey data.
 
-### Data Collection:
+The primary source for this research is Texas State University's Parking Spring 2024.
+This parking survey questionnaire was developed using Qualtrics and administrator via university emails to all TXST students, gathering comprehensive information regarding daily commuting patterns during the previous Spring semester.
+This survey received (1,182/40678), responses rate of 2.9%(0.02908).
+According to survey found in the literature review, this is a reasonable rate for a commute survey.
+The data collected from the student responses is a quantitative in nature and will be used for a statistical summary analysis of travel behavior.
 
-The primary source for this research is Texas State University's Parking survey from Fall 2024 and 2025-2035 Camps Master Plan.
+This study will investigate travel behavior and travel characteristics of students at TXST of travel around campus.
+Alternative travel modes include university(Bobcat Shuttle), city(CARTS), and private apartment shuttles, walk, bicycle, carpool, drop-off, ride-share(Uber/Lyft), and micro-mobility(SPIN scooters).
+Students received no incentives for completing the survey.
 
-The 2024 parking survey will be utilized to investigated TXST students travel behavior.
-This parking survey was administrator via university emails to all TXST students, gathering comprehensive information regarding daily commuting patterns.
-This survey received a response rate of 2.9%(0.02908), The data collected from the student responses is a quantitative in nature and will be used for a statistical summary analysis of travel behavior.
+Identify key insights related to transportation patterns.
 
-```{r}
-#| label: response_rate
-#| eval: false
-#| include: false
+-   Primary travel mode
+-   Frequency of travel
+-   Trip distance and length
+-   Parking permit ownership
+-   Private vehicle access
+-   Examine the potential impact of changes in travel behavior on greenhouse gas emissions.
 
-population_size <- 40678
-sample_size <- 1183
-confidence_level <- 0.95  # 95% confidence level
-z_score <- qnorm(1 - (1 - confidence_level)/2)  # z-score for 95% confidence = 1.96
+Variables, Descriptions, and Count
 
-# Calculate margin of error
-# Formula: z * sqrt((p * (1-p)) / n) * sqrt((N-n)/(N-1))
-p <- 0.5  # Using 0.5 for maximum variance
-margin_of_error <- z_score * sqrt((p * (1-p)) / sample_size) * sqrt((population_size - sample_size)/(population_size - 1))
-
-# Convert to percentage
-margin_of_error_percent <- margin_of_error * 100
-
-# Print results
-cat("Sample size:", sample_size, "\n")
-cat("Population size:", population_size, "\n")
-cat("Confidence level:", confidence_level * 100, "%\n")
-cat("Margin of error: ±", round(margin_of_error_percent, 2), "%\n", sep="")
-```
-
--   Analysis:
-    -   Perform statistical summary analysis of travel behavior based on survey responses.
-    -   Identify key insights related to transportation patterns.
-        -   Primary travel mode
-        -   Frequency of travel
-        -   Trip distance and length
-        -   Parking permit ownership
-        -   Private vehicle access
-    -   Examine the potential impact of changes in travel behavior on greenhouse gas emissions.
--   Summary and Recommendations:
-    -   Draft a summary analysis of the findings.
-    -   Propose actionable steps for TXST to promote sustainable transportation.
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+| Varibles                     |                                | Descriptions/Notes                                                    |
++==============================+================================+=======================================================================+
+| ***Dependent Variables***    |                                |                                                                       |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+| Drive alone                  |                                | Primary travel mode to campus is drive alone car or motorcycle.       |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+| Carpool                      |                                | Primary travel mode is to carpool.                                    |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+| Bobcat Shuttle               |                                | Primary travel mode is university shuttle, Bobcat Shuttle.            |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+| Private Shuttle              |                                | Primary travel mode is private shuffle provided by apartment complex. |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+| Walking                      |                                | Primary travel mode is walking                                        |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+| Biking                       |                                | Primary travel mode is biking.                                        |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+| Micro-mobility               |                                | Primary travel mode is Spin scooter or other mirco-mobility options.  |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+| ***Independent Variables***  |                                |                                                                       |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+| Physical Environment         | Location                       | ZIP code                                                              |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+|                              | Housing                        | On-Campus                                                             |
+|                              |                                |                                                                       |
+|                              |                                | Off-Campus                                                            |
+|                              |                                |                                                                       |
+|                              |                                | Bobcat Village                                                        |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+| Trip Characteristics         | Days per week top campus       |                                                                       |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+|                              | Time of campus(mins)           | 0-15 minutes                                                          |
+|                              |                                |                                                                       |
+|                              |                                | 15-30 minutes                                                         |
+|                              |                                |                                                                       |
+|                              |                                | 30-45 minutes                                                         |
+|                              |                                |                                                                       |
+|                              |                                | 45-60 minutes                                                         |
+|                              |                                |                                                                       |
+|                              |                                | \>60 minutes                                                          |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+|                              | Distance to campus             | Less than 1 mile                                                      |
+|                              |                                |                                                                       |
+|                              |                                | 1-5 miles                                                             |
+|                              |                                |                                                                       |
+|                              |                                | 5-10 miles                                                            |
+|                              |                                |                                                                       |
+|                              |                                | 10-20 miles                                                           |
+|                              |                                |                                                                       |
+|                              |                                | 20-30 miles                                                           |
+|                              |                                |                                                                       |
+|                              |                                | 30-60 miles                                                           |
+|                              |                                |                                                                       |
+|                              |                                | \>60 miles                                                            |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+|                              | Main street traveled to campus | Sessom Dr.                                                            |
+|                              |                                |                                                                       |
+|                              |                                | N. LBJ at Sessom Dr.                                                  |
+|                              |                                |                                                                       |
+|                              |                                | N. LBJ at Woods St.                                                   |
+|                              |                                |                                                                       |
+|                              |                                | Old Ranch Road 12                                                     |
+|                              |                                |                                                                       |
+|                              |                                | Aquarena Springs                                                      |
+|                              |                                |                                                                       |
+|                              |                                | Thorpe Lane                                                           |
+|                              |                                |                                                                       |
+|                              |                                | N. Guadalupe                                                          |
+|                              |                                |                                                                       |
+|                              |                                | Hopkins                                                               |
+|                              |                                |                                                                       |
+|                              |                                | Hunter'                                                               |
+|                              |                                |                                                                       |
+|                              |                                | Wonder World                                                          |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+| Parking Permit               |                                | Drives that have 2023-2024 Texas State parking permits                |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
+| Driving from residental hall |                                | Students driving from residental hall to parking lot                  |
++------------------------------+--------------------------------+-----------------------------------------------------------------------+
 
 #### Objectives
 

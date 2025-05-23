@@ -33,7 +33,7 @@ txst_facts_24 <- data.frame(
   "avg_transfer_gpa",
   "acc_transfer"),
   Count = c(
-  40678,
+  40678L,
   1805,
   0.46,
   136,
@@ -61,6 +61,7 @@ txst_facts_24 <- data.frame(
   708)
   
 )
+
 
 # Print the data frame
 print(txst_facts_24)
