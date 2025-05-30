@@ -100,15 +100,20 @@ How can universities leverage physical factors of campus to reduce transportatio
 
 This study site is Texas State University(TXST), a premier public school institution located in San Marcos Texas.
 As one of seven institutions in The Texas State University System, San Marcos(main) campus serves 40,678 students today.
-This campus is a thriving public research institution with an annual exceeding \$165 million and racing to Carnegie R1 status.
 TXST is strategically located in the Texas Triangle, the dynamic regions of Texas that encompasses San Antonio, Austin, Dallas-Forth Worth, and Houston[@txcampplan24].
 This area is home to more than 70% of Texas population(\>21 million people).
 The San Marcos campus itself is a characterized by its size, unique topography, and integration with significant natural features like the San Marcos River.
 The local transportation environment includes a pedestrian-centric core, existing parking infrastructure, and congested roadways challenges.
 This research focuses on understanding how to further leverage physical features of campus to reduce transportation emissions by investigating TXST students travel behavior using parking survey data.
 
-The primary source for this research is Texas State University's Parking Spring 2024.
-This parking survey questionnaire was developed using Qualtrics and administrator via university emails to all TXST students, gathering comprehensive information regarding daily commuting patterns during the previous Spring semester.
+This research will utilize Texas State University Campus Master Plans 2017-2027 and 2025-2035, sourced from the The Texas State University System website.
+Both master plans give updates on implementations from previous campus master plans and a roadmap for the next decade.
+These campus master plans inform stakeholders to include campus population, student, faculty, staff and the local community.
+The plans give updates on progress on objective such enrollment rates and usable square footage reports.
+They also includes infrastructure plans, such as renovations and build project, and overall campus design direction for archutecture and transportation.
+
+University's Parking Spring 2024.
+This parking survey questionnaire was developed using Quadratics and administrator via university emails to all TXST students, gathering comprehensive information regarding daily commuting patterns during the previous Spring semester.
 This survey received (1,182/40678), responses rate of 2.9%(0.02908).
 According to survey found in the literature review, this is a reasonable rate for a commute survey.
 The data collected from the student responses is a quantitative in nature and will be used for a statistical summary analysis of travel behavior.
@@ -127,86 +132,6 @@ Identify key insights related to transportation patterns.
 -   Examine the potential impact of changes in travel behavior on greenhouse gas emissions.
 
 Variables, Descriptions, and Count
-
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-| Varibles                     |                                | Descriptions/Notes                                                    |
-+==============================+================================+=======================================================================+
-| ***Dependent Variables***    |                                |                                                                       |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-| Drive alone                  |                                | Primary travel mode to campus is drive alone car or motorcycle.       |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-| Carpool                      |                                | Primary travel mode is to carpool.                                    |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-| Bobcat Shuttle               |                                | Primary travel mode is university shuttle, Bobcat Shuttle.            |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-| Private Shuttle              |                                | Primary travel mode is private shuffle provided by apartment complex. |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-| Walking                      |                                | Primary travel mode is walking                                        |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-| Biking                       |                                | Primary travel mode is biking.                                        |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-| Micro-mobility               |                                | Primary travel mode is Spin scooter or other mirco-mobility options.  |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-| ***Independent Variables***  |                                |                                                                       |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-| Physical Environment         | Location                       | ZIP code                                                              |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-|                              | Housing                        | On-Campus                                                             |
-|                              |                                |                                                                       |
-|                              |                                | Off-Campus                                                            |
-|                              |                                |                                                                       |
-|                              |                                | Bobcat Village                                                        |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-| Trip Characteristics         | Days per week top campus       |                                                                       |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-|                              | Time of campus(mins)           | 0-15 minutes                                                          |
-|                              |                                |                                                                       |
-|                              |                                | 15-30 minutes                                                         |
-|                              |                                |                                                                       |
-|                              |                                | 30-45 minutes                                                         |
-|                              |                                |                                                                       |
-|                              |                                | 45-60 minutes                                                         |
-|                              |                                |                                                                       |
-|                              |                                | \>60 minutes                                                          |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-|                              | Distance to campus             | Less than 1 mile                                                      |
-|                              |                                |                                                                       |
-|                              |                                | 1-5 miles                                                             |
-|                              |                                |                                                                       |
-|                              |                                | 5-10 miles                                                            |
-|                              |                                |                                                                       |
-|                              |                                | 10-20 miles                                                           |
-|                              |                                |                                                                       |
-|                              |                                | 20-30 miles                                                           |
-|                              |                                |                                                                       |
-|                              |                                | 30-60 miles                                                           |
-|                              |                                |                                                                       |
-|                              |                                | \>60 miles                                                            |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-|                              | Main street traveled to campus | Sessom Dr.                                                            |
-|                              |                                |                                                                       |
-|                              |                                | N. LBJ at Sessom Dr.                                                  |
-|                              |                                |                                                                       |
-|                              |                                | N. LBJ at Woods St.                                                   |
-|                              |                                |                                                                       |
-|                              |                                | Old Ranch Road 12                                                     |
-|                              |                                |                                                                       |
-|                              |                                | Aquarena Springs                                                      |
-|                              |                                |                                                                       |
-|                              |                                | Thorpe Lane                                                           |
-|                              |                                |                                                                       |
-|                              |                                | N. Guadalupe                                                          |
-|                              |                                |                                                                       |
-|                              |                                | Hopkins                                                               |
-|                              |                                |                                                                       |
-|                              |                                | Hunter'                                                               |
-|                              |                                |                                                                       |
-|                              |                                | Wonder World                                                          |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-| Parking Permit               |                                | Drives that have 2023-2024 Texas State parking permits                |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
-| Driving from residental hall |                                | Students driving from residental hall to parking lot                  |
-+------------------------------+--------------------------------+-----------------------------------------------------------------------+
 
 #### Objectives
 
