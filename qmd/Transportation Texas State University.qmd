@@ -8,23 +8,21 @@ editor:
     wrap: sentence
 ---
 
-## Introduction & Background
+# Introduction & Background
 
-### Universities
+## Universities
 
-#### Creating Demand
+### Creating Demand
 
 Universities campuses in college towns provide unique opportunities to reduce transportation-related greenhouse gas emissions(GHGe) and other pollutants.
-Interest in university student travel behavior has grown among researchers and policy makers and car dependency continues to adversely impact U.S. communities[@zhou2018][@khattak2011].
+Interest in university student travel behavior has grown among researchers and policy makers as car dependency continues to adversely impact U.S. communities[@zhou2018][@khattak2011].
 The adverse effects of car dependency include pollution, health effects, and financial burden[@romanowska2019].
 Universities are recognized institutions that can create awareness of climate change mitigation and sustainable transportation practices[@romanowska2019][@deangelis2021][@zhou2012].
 
-Referred to as "cities inside cities".
-universities are ideal learning laboratories for researching and identifying sustainability initiatives.
+Referred to as "cities inside cities"universities are ideal learning laboratories for researching and identifying sustainability initiatives.
 Functioning as a large communal network that reflects a large community and function universities have a significant role in promoting sustainable development and tackling transportation concerns.
 The movement of students, staff and visitors is a critical factor in the growing impact of universities campuses to the surrounding area.
-Universities have a large footprint, accounting for up to 2% of the total annual U.S.
-GHGe, making it important that they participate in mitigating climate change[@parsley2022].
+Universities have a large footprint, accounting for up to 2% of the total annual U.S.GHGe, making it important that they participate in reducing adverse impacts[@parsley2022].
 
 Today large university campuses are a microcosm of the urban landscape and provides a ideal environment for studying transportation policy and infrastructure.
 [@zhou2018, 133]
@@ -32,27 +30,26 @@ Today large university campuses are a microcosm of the urban landscape and provi
 University students are considered a key segment of the population those travel is often understudies and weakly covered in current literature and data collection[@kattak2011][@taylor2021].
 Current research explores daily commuting patterns, factors influencing travel behavior, and the potential for shifting toward more sustainable travel modes[@romanowska2019][@zhou2011].
 
-#### Trip Generation
+### Trip Generation
 
 Universities are major contributors to commuting trips averaging 20% higher than the general public, **3.69** daily trips[@zhou2018, @khattak2011].
 Universities serve a large number of students and staff forming a significant portion of the local or regional population[@romanowska2019].
 This large populations moving from and around a compact campus inherently generate a significant volume of daily trips[@romanowska2019].
 [@khattak2011] defines a trip as moving at least 300 feet from one address to another.
-This definition is important for capturing travel behavior of university students living on and around campus.
-Undergraduate students living on campus make the most trips when compared to other university groups.
-University students make shorter non-motorized trips, utilizing walking and biking infrastructure.
+This definition helps capture travel behavior of university students move around campus that tends to be a shorter distance[]. University students make shorter non-motorized trips, utilizing walking and biking infrastructure.
 [@khattak2011].
+Undergraduate students living on campus make the most trips when compared to other university groups[].
 
-#### Using Alternative Travel Modes
 
-University students are moretransient living and are more likely to use alternative travel modes, marking them as notably from the general population.
-University students are more likely to adopt alternative travel modes, having a higher portion versus staff and general public.
-Students populations tend to walk and and bike more reducing car trips.
+### Using Alternative Travel Modes
+
+University students are more transient living and are more likely to use alternative travel modes, marking them as notably from the general population.
+University students are more likely to adopt alternative travel modes, having a higher portion walking or biking when compared to staff and general public.
 Student tend prioritize housing that is affordable and close to campus, providing them more travel mode choice.
-The variety of quality transportation modes and high portion of alternative transportation modes creates a need for a more comprehensive transportation system, less reliant on fossil fuels.
+The variety of quality transportation modes anddemand for alternative transportation modes creates a need for a more comprehensive transportation system, less reliant on single occupancy vehicle travel[].
 Universities increase the demand on local transportation system while providing an opportunity to expand alternative transportation modes.
 
-The compactness suggest students are more likely to walk or bike and drive less[@zhou2018].
+The compactness of campus encourages students to use walk or bike and drive less[@zhou2018].
 A study focused on college students commuter students were more likely to use alternative and active travel modes when compared to staff and peers at urban universities[@zhou2018].
 However, 25% of commuters students living within two miles of campus drove alone, indicating that a compact form is only the only factor of satisfying all travel needs, like out of town travel[@zhou2018].
 The advantage of shorter distances, good transit, and a safe environment are not guarantees of alternative mode, suggesting the need for further strategies to manage transportation needs[@zhou2018].
@@ -66,7 +63,7 @@ High students density presents both challenges and opportunities for promoting a
 Studies find that improved biking and pedestrian infrastructure reduces car commuting, to up 14%[@romanowka2019, 15].
 University students live relatively close to campus and have accessible to quality multi-modal transportation systems[@zhou2018, 132]
 
-#### Window of Opportunity
+### Window of Opportunity
 
 For many the university campus is the A more rigorous focus on university travel will provide insight on how the built environment combined with social factors effect travel behavior[@deangelis2021].
 Universities are active;ly encouraging sustainable education and practices[@parsley].
@@ -92,11 +89,11 @@ Where as someone who drive most of their time on campus is likely to continue wi
 About 20% University staff preferred travel modes for their directness, duration, convenience and flexibility.
 These travel preferences are consistent with staff demographics, representing a more stable consistent lifestyle, having dependents, and living away from campus.
 
-#### Research Question
+### Research Question
 
 How can universities leverage physical factors of campus to reduce transportation emissions?
 
-#### Methodology
+## Methodology
 
 This study site is Texas State University(TXST), a premier public school institution located in San Marcos Texas.
 As one of seven institutions in The Texas State University System, San Marcos(main) campus serves 40,678 students today.
@@ -110,10 +107,23 @@ This research will utilize Texas State University Campus Master Plans 2017-2027 
 Both master plans give updates on implementations from previous campus master plans and a roadmap for the next decade.
 These campus master plans inform stakeholders to include campus population, student, faculty, staff and the local community.
 The plans give updates on progress on objective such enrollment rates and usable square footage reports.
-They also includes infrastructure plans, such as renovations and build project, and overall campus design direction for archutecture and transportation.
+They also includes infrastructure plans, such as renovations and build project, and overall campus design direction for architecture and transportation.
 
-University's Parking Spring 2024.
-This parking survey questionnaire was developed using Quadratics and administrator via university emails to all TXST students, gathering comprehensive information regarding daily commuting patterns during the previous Spring semester.
+Identify key sections related to transportation planning and implementation:
+
+-   Current Conditions
+
+-   Planning Process
+
+-   Key Themes/Guiding Principles
+
+-   Parking & Transportation
+
+-   Implementation Strategy
+
+TXST Parking Survey Spring 2024 data for a quantitative analysis of university student travel.
+This annual parking survey questionnaire was developed by the using Quadratics and administrator via university emails to all TXST students.
+This survey is used to gathering comprehensive information regarding students' daily commuting patterns during the 2023-2024 Spring semester.
 This survey received (1,182/40678), responses rate of 2.9%(0.02908).
 According to survey found in the literature review, this is a reasonable rate for a commute survey.
 The data collected from the student responses is a quantitative in nature and will be used for a statistical summary analysis of travel behavior.
@@ -122,7 +132,7 @@ This study will investigate travel behavior and travel characteristics of studen
 Alternative travel modes include university(Bobcat Shuttle), city(CARTS), and private apartment shuttles, walk, bicycle, carpool, drop-off, ride-share(Uber/Lyft), and micro-mobility(SPIN scooters).
 Students received no incentives for completing the survey.
 
-Identify key insights related to transportation patterns.
+Identify key insights related to transportation patterns:
 
 -   Primary travel mode
 -   Frequency of travel
@@ -131,9 +141,7 @@ Identify key insights related to transportation patterns.
 -   Private vehicle access
 -   Examine the potential impact of changes in travel behavior on greenhouse gas emissions.
 
-Variables, Descriptions, and Count
-
-#### Objectives
+### Objectives
 
 -   Analyze transportation and travel behavior of Texas State University students using parking survey data from the Fall 2024 semester.
 
@@ -141,10 +149,15 @@ Variables, Descriptions, and Count
 
 -   Provide actionable recommendations to reduce transportation-related greenhouse gas emissions.
 
-### Expected Outcomes
+## Conclusion
 
--   Enhanced understanding of TXST students' travel behavior and its environmental impact.
+This research proposal addresses a critical intersection between higher education and environmental sustainability by examining transportation patterns at Texas State University.
+As universitiespopulations and commuter trips grow commuting, understanding student travel behavior represents a significant opportunity for climate impact reduction. The proposed study leverages Texas State University's unique position as a "city within a city" and capitalizes on the "window of opportunity" that university life presents for establishing sustainable travel habits.
 
--   Identification of key factors and trends influencing transportation choices among students.
+The compact nature of university campuses, combined with students' demonstrated willingness to adopt alternative transportation modes, creates an ideal environment for testing and implementing sustainable transportation strategies. The findings from this study benefit TXST's sustainability goals and contribute to the broader understanding of how universities can serve as living laboratories for sustainable transportation policy and infrastructure development.
 
--   Actionable recommendations for TXST to reduce transportation-related GHGe and promote sustainable travel options.
+By analyzing 2017-2027 planning with the implementation plans and current conditions of the university in 2025-2035 Campus Master Plan, this research will provide evidence-based insights into how physical campus design influences student travel choices and emission patterns.
+
+By identifying specific physical and policy interventions that effectively reduce transportation emissions, this study will provide a repeatable model for other universities seeking to minimize their environmental impact while serving their communities more effectively.
+
+The expected outcomes are to enhance understanding of student travel behavior by identifing key influencing factors, and actionable recommendations, this study will position Texas State University as a leader in sustainable campus transportation planning.
